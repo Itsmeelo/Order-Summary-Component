@@ -1,0 +1,398 @@
+@font-face {
+  font-family: "Red Hat Display", sans-serif;
+  @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+[hidden] {
+  display: none !important;
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: #f2f2f2;
+  background-image: url(https://cdn.glitch.global/359f8166-c98d-41c4-a6f8-abf8ed1da46b/pattern-background-desktop.svg?v=1659448091747);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.path1 {
+  /*   background-image: url(https://cdn.glitch.global/359f8166-c98d-41c4-a6f8-abf8ed1da46b/pattern-background-desktop.svg?v=1659448091747);
+    width: 100%;
+    height: 50%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top; */
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+
+.card-MainContainer {
+  width: 450px;
+  height: 650px;
+  /*   border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  border-radius: 20px;
+}
+
+.hero {
+  width: 450px;
+  height: 220px;
+  background-image: url(https://cdn.glitch.global/359f8166-c98d-41c4-a6f8-abf8ed1da46b/illustration-hero.svg?v=1659448078383);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-container2 {
+  width: 450px;
+  height: 477px;
+  /*   border: 1px solid yellow; */
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container3 {
+  height: 384px;
+  width: 354px;
+  /*   border: 1px solid black; */
+}
+
+h1 {
+  height: 37px;
+  width: 354px;
+  /*   border: 1px solid black; */
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  text-align: center;
+  color: #1f2e55;
+  margin-bottom: 17px;
+}
+
+.card-section3 {
+  height: 78px;
+  width: 354px;
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #717fa6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card-section4 {
+  height: 98px;
+  width: 354px;
+  background: #f7f9ff;
+  border-radius: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.section4-div {
+  height: 48px;
+  width: 306px;
+  /*   border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.music {
+  width: 48px;
+  height: 48px;
+  background-image: url(https://cdn.glitch.global/359f8166-c98d-41c4-a6f8-abf8ed1da46b/icon-music.svg?v=1659448067376);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+
+.prise {
+  height: 48px;
+  width: 92px;
+  margin-right: 94px;
+  /*   border: 1px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.anual-plan {
+  height: 21px;
+  width: 117.19047546386719px;
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1f2e55;
+}
+
+.anual-prise {
+  height: 21px;
+  width: 92px;
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #717fa6;
+}
+
+.change {
+  height: 19px;
+  width: 52px;
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #382ae1;
+}
+
+.change:hover {
+  height: 19px;
+  width: 52px;
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #766cf1;
+  cursor: pointer;
+  text-decoration: none;
+}
+.button {
+  height: 50px;
+  width: 354px;
+  background: #382ae1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.button:hover {
+  height: 50px;
+  width: 354px;
+  background: #766cf1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+span {
+  height: 20px;
+  width: 166px;
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+h3 {
+  height: 20px;
+  width: 108px;
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #717fa6;
+  margin: auto;
+}
+
+h3:hover {
+  height: 20px;
+  width: 108px;
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #1f2e55;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) and (min-width: 375px) {
+  .main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: #e0e8ff;
+    background-image: url(https://cdn.glitch.global/359f8166-c98d-41c4-a6f8-abf8ed1da46b/pattern-background-mobile.svg?v=1659448133723);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    /*     background: #D6E1FF; */
+  }
+
+  .path1 {
+    /*   background-image: url(https://cdn.glitch.global/359f8166-c98d-41c4-a6f8-abf8ed1da46b/pattern-background-desktop.svg?v=1659448091747);
+    width: 100%;
+    height: 50%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top; */
+    display: flex;
+    justify-content: center;
+    align-items: top;
+  }
+
+  .card-MainContainer {
+    width: 327px;
+    height: 567px;
+  }
+
+  .hero {
+    width: 327px;
+    height: 160px;
+    margin-bottom: 32px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .card-container2 {
+    height: 407px;
+    width: 327px;
+  }
+
+  .card-container3 {
+    height: 419px;
+    width: 279px;
+  }
+
+  h1 {
+    height: 29px;
+    width: 263px;
+    margin-bottom: 16px;
+  }
+
+  .card-section3 {
+    height: 75px;
+    width: 263px;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: center;
+    color: #717fa6;
+    margin-bottom: 24px;
+  }
+
+  .card-section4 {
+    height: 81px;
+    width: 279px;
+    margin-bottom: 24px;
+  }
+  .section4-div {
+    height: 48px;
+    width: 247px;
+  }
+
+  .music {
+    height: 48px;
+    width: 48px;
+    margin-right: 20px;
+  }
+
+  .prise {
+    height: 40px;
+    width: 81px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .anual-plan {
+    height: 19px;
+    width: 92px;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #1f2e55;
+  }
+
+  .anual-prise {
+    height: 19px;
+    width: 81px;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #717fa6;
+  }
+
+  .change {
+    height: 17px;
+    width: 48px;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #382ae1;
+  }
+
+  .button {
+    height: 50px;
+    width: 279px;
+    background: #382ae1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+    margin-bottom: 24px;
+  }
+
+  h3 {
+    height: 20px;
+    width: 108px;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #717fa6;
+  }
+}
